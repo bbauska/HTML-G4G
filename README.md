@@ -339,30 +339,28 @@ properties to it. Below is the list of some common CSS selectors:
 -   **ID Selector: **Define ID attribute and select using the \# prefix
     followed by the value of ID attribute.
 
--   **Class Selector: **Define Class attribute and select using the .
+-   **Class Selector:** Define Class attribute and select using the .
     prefix followed by the value of class attribute.
 
--   **Universal Selector (\*): **Select using the \* sign.
+-   **Universal Selector (&ast;):** Select using the &ast; sign.
 
 -   **Attribute Selector: **Select the elements based on the attribute
-    values. Eg: **input\[type="text"\]{}**
+    values. Eg: **input&lbrack;type="text"&rbrack;{}**
 
--   **Direct Child Selector: **Select element using any of the above
-    selectors and use \> followed by direct child selector. Eg: **parent
-    \> child{}**
+-   **Direct Child Selector:** Select element using any of the above
+    selectors and use &gt; followed by direct child selector. Eg: **parent &gt; child{}**
 
--   **Pseudo Selectors: **These are selectors like :hover, :nth-child(),
+-   **Pseudo Selectors:** These are selectors like :hover, :nth-child(),
     ::after, ::before etc.
 
-**25. Explain the precedence of the Class, Id and Element selectors in
-CSS.**
+**25. Explain the precedence of the Class, Id and Element selectors in CSS.**
 
 The precedence of the ID, Class and Element CSS selectors is shown
 below:
 
--   ID Selector \> Class Selector \> Element Selector
+-   ID Selector &gt; Class Selector &gt; Element Selector
 
--   ID Selector + Class Selector \> ID Selector + Element Selector \>
+-   ID Selector + Class Selector &gt; ID Selector + Element Selector &gt; 
     Class Selector + Element Selector
 
 **26. What are the best practices for using JavaScript and CSS?**
@@ -386,24 +384,22 @@ for JavaScript and CSS:
 -   Avoid creating global variable and use the meaningful name to define
     the variables.
 
-**27. What is difference between visibility: hidden and display: none
-properties in CSS?**
+**27. What is difference between visibility: hidden and display: none properties in CSS?**
 
-The **visibility: hidden **property only hides the content of the
+The **visibility: hidden** property only hides the content of the
 element on which it is used. It does not removes the element from the
 document and keep the space as it is so that no other element can
-replace it on the UI. On the other hand, the **display: none **property
+replace it on the UI. On the other hand, the **display: none** property
 not only hides the element but removes it from the document and the
 space acquired by the element is now free to be acquired by the other
 elements.
 
-**28. Mention the issues faced by developers while running the CSS in
-Internet Explorer (IE)?**
+**28. Mention the issues faced by developers while running the CSS in Internet Explorer (IE)?**
 
 Below list shows the issues faced by the developers in Internet
 Explorer:
 
--   Transparency of the images with **.png **extension.
+-   Transparency of the images with **.png** extension.
 
 -   Issues related to Z-index property.
 
@@ -419,59 +415,55 @@ The box model in CSS is basically a blue print of an element with some
 properties. The box model contains four elements which are content,
 padding, border and margin.
 
--   **Content: **It can be the text content or the nested HTML elements
+-   **Content:** It can be the text content or the nested HTML elements
     with some content inside a element.
 
--   **Padding: **It is the space around the content of the element or
+-   **Padding:** It is the space around the content of the element or
     the space between the content and the borders.
 
--   **Border: **This is the stroke or outline provided to the element to
+-   **Border:** This is the stroke or outline provided to the element to
     see its boundaries or style it.
 
--   **Margin: **It is the space around the whole element, it is the gap
+-   **Margin:** It is the space around the whole element, it is the gap
     outside the element from other elements or the space between the
     border of this element and other elements.
 
 **30. What is the purpose of z-index property in CSS?**
 
-The **z-index **property is used to control the stacking order of the
-elements that are positioned using the **position **property in CSS. The
+The **z-index** property is used to control the stacking order of the
+elements that are positioned using the **position** property in CSS. The
 higher or the positive values will make the element appear on the top of
 the other elements while the negative or the lower values make them
 appear behind the elements with higher values.
 
 **31. What is the use of float property?**
 
-The **float **property allows to set the child elements of a container
+The **float** property allows to set the child elements of a container
 either on the left side of it or at the right side of it. The possible
-values for this property are **left, right, initial,
-inherit, **and **none.**
+values for this property are **left, right, initial, inherit,** and **none.**
 
-**32. Explain different ways to display an element at the center of the
-web page.**
+**32. Explain different ways to display an element at the center of the web page.**
 
 There are many ways to center a element on the web page as described
 below:
 
--   **Using margin: **The **margin **property can be used to center a
+-   **Using margin:** The **margin** property can be used to center a
     element horizontally by giving **margin auto** from left and right
     of the element as **margin: 0 auto;**.
 
--   **Using display: **The display property with value **flex **can be
+-   **Using display:** The display property with value **flex** can be
     used to center a element vertically as well as horizontally by using
-    some extra properties as **align-items:
-    center; **and **justify-content: center;.**
+    some extra properties as **align-items: center;** and **justify-content: center;.**
 
 -   **Using position and transform: **You can position a element to give
-    it a **left **and **top **to **50% **and then use
-    the **transform **property with value **translateY(-50%);**
+    it a **left** and **top** to **50%** and then use
+    the **transform** property with value **translateY(-50%);**
 
 **33. Describe the use of the position property in CSS.**
 
 The position property is used to position an element with respect to
 different elements according to the given property value. The possible
-values of this property are **relative, absolute, fixed,
-sticky, **and **static.**
+values of this property are **relative, absolute, fixed, sticky,** and **static.**
 
 **34. What are pseudo classes and pseudo elements in CSS?**
 
