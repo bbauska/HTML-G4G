@@ -14,18 +14,17 @@ a.  **Basic HTML**
 
 ### What is HTML?
 
-**[[HTML]{.underline}](https://www.geeksforgeeks.org/html-introduction) stands
+**[HTML](https://www.geeksforgeeks.org/html-introduction) stands
 for Hyper Text Markup Language**. It is a markup language that consists
 of different tags. It is used to define the structure of the web pages.
 
 ### What are Semantic elements in HTML?
 
-The [**[semantic
-elements]{.underline}**](https://www.geeksforgeeks.org/html5-semantics) in
+The [**semantic elements**](https://www.geeksforgeeks.org/html5-semantics) in
 HTML are the elements that contain the meaning of the content and the
 structure of the HTML document. These elements contain content that is
 related to their names or reflects their names. Some of the
-**[semantic]{.mark}** HTML elements are listed below:
+**[semantic] HTML elements are listed below:
 
 -   Header
 -   Main
@@ -126,22 +125,21 @@ HTML5 is shown below:
 The elements used in the basic structure of an HTML document are
 explained below:
 
--   **[\<!DOCTYPE
-    html\>](https://www.geeksforgeeks.org/html-doctypes): **It
+-   **[&lt;!DOCTYPE html&gt;](https://www.geeksforgeeks.org/html-doctypes): **It
     represents the HTML5 version of the HTML.
 
--   **[\<html\>](https://www.geeksforgeeks.org/html-tutorial): **It is
+-   **[&lt;html&gt;](https://www.geeksforgeeks.org/html-tutorial): **It is
     the root element of the HTML document.
 
--   **[\<head\>](https://www.geeksforgeeks.org/html-head-tag): **It
+-   **[&lt;head&gt;](https://www.geeksforgeeks.org/html-head-tag): **It
     contains the meta data i.e. the data about the data. The content
     contained by this tag is not visible on the web page.
 
--   **[\<title\>](https://www.geeksforgeeks.org/html-title-tag): **It
+-   **[&lt;title&gt;](https://www.geeksforgeeks.org/html-title-tag): **It
     contains the title of the document which will be visible in the
     browser tab.
 
--   **[\<body\>](https://www.geeksforgeeks.org/html-body-tag): **It
+-   **[&lt;body&gt;](https://www.geeksforgeeks.org/html-body-tag): **It
     contains the content of the web page in the form of the HTML tags
     like **div, anchor, paragraph, headings, etc.**
 
@@ -152,25 +150,25 @@ Basically, they are the keywords that are enclosed inside the **angle
 brackets(\<\>). **Some examples of HTML tags are **\<div\>, \<p\>,
 \<a\>, \<span\>, \<img\> etc.**
 
-### Why ['alt' attribute](https://www.geeksforgeeks.org/html-alt-attribute) is used with the [\<img\> tag in HTML](https://www.geeksforgeeks.org/html-img-tag)?
+### Why ['alt' attribute](https://www.geeksforgeeks.org/html-alt-attribute) is used with the [&lt;img&gt; tag in HTML](https://www.geeksforgeeks.org/html-img-tag)?
 
 The alt attrbute provides a alternative content that is related to the
 image which will be shown on the web page if the image does not gets
 loaded. It is used to define our image in that case.
 
-### **1.10. What is the difference between the [\<div\>](https://www.geeksforgeeks.org/div-tag-html) and [\<span\>](https://www.geeksforgeeks.org/html-span-tag) tag in** **HTML?**
+### **1.10. What is the difference between the [&lt;div&gt;](https://www.geeksforgeeks.org/div-tag-html) and [&lt;span&gt;](https://www.geeksforgeeks.org/html-span-tag) tag in** **HTML?**
 
 The below table will show the differences between the div and span tag
 in HTML:
 
-| **\<div\> tag**        | **\<span\> tag**          |
+| **&lt;div&gt;tag**        | **&lt;span&gt;tag**          |
 | ----------------------- | ------------------------ |
 | It is a block-level element.         | It is an inline element. |
 | It can be used to group and structure the content of the web page. | It is mainly used to interact and style the particular part of the web page. |
 |  It represents a bigger section of the web page.  | It is used to target small parts of the web page. |
 |  It starts from a new line and takes up the full width available. | It does not starts from a new line and takes up the only  required width as taken by the content. |
 
-### Why the [\<meta charset = "UTF-8"\>](https://www.geeksforgeeks.org/what-is-the-purpose-of-using-the-meta-charsetutf-8-tag) tag is used?
+### Why the [&lt;meta charset = "UTF-8"&gt;](https://www.geeksforgeeks.org/what-is-the-purpose-of-using-the-meta-charsetutf-8-tag) tag is used?
 
 It is used to set the character encoding of the charaters for the
 document to **UTF-8 **to properly display the text and the special
@@ -198,9 +196,9 @@ in HTML forms:
 | Results are cached by the browser by default. | Does not caches the responses in the browser by default. |
 | Users can bookmark the form submission. | Responses can be bookmarked easily. |
 
-### What is the use of the \<iframe\> tag?
+### What is the use of the &lt;iframe&gt; tag?
 
-The[ \<iframe\> tag](https://www.geeksforgeeks.org/html-iframe-tag) is
+The[ &lt;iframe&gt; tag](https://www.geeksforgeeks.org/html-iframe-tag) is
 used to embed the external documents or the web pages inside the current
 document by specifying its link inside it. It is mainly used to embed
 the external videos, maps and other external content.
@@ -210,16 +208,16 @@ the external videos, maps and other external content.
 HTML5 introduced some new features that are listed below:
 
 -   Introduced new semantic elements
-    like: **[\<header\>](https://www.geeksforgeeks.org/html5-header-tag), [\<footer\>](https://www.geeksforgeeks.org/html5-footer-tag), [\<nav\>](https://www.geeksforgeeks.org/html-nav-tag), [\<aside\>](https://www.geeksforgeeks.org/html5-aside-tag), [\<article\>](https://www.geeksforgeeks.org/html5-article-tag), [\<section\>](https://www.geeksforgeeks.org/html-section-tag) etc.**
+    like: **[&lt;header&gt;](https://www.geeksforgeeks.org/html5-header-tag), [&lt;footer&gt;](https://www.geeksforgeeks.org/html5-footer-tag), [\<nav\>](https://www.geeksforgeeks.org/html-nav-tag), [\<aside\>](https://www.geeksforgeeks.org/html5-aside-tag), [\<article\>](https://www.geeksforgeeks.org/html5-article-tag), [&lt;section&gt;](https://www.geeksforgeeks.org/html-section-tag) etc.**
 
 -   New form input types such as **email, url, number, date, etc.**
 
 -   It introduced
-    the** [\<audio\>](https://www.geeksforgeeks.org/html5-audio-tag)** and **[\<video\>](https://www.geeksforgeeks.org/html5-video) **tags
+    the **[&lt;audio&gt;](https://www.geeksforgeeks.org/html5-audio-tag)** and **[&lt;video&gt;](https://www.geeksforgeeks.org/html5-video) **tags
     to embed audios and videos and reduces the dependence on the third
     party libraries.
 
--   **\<canvas\> **element to draw graphics and animations using
+-   **&lt;canvas&gt;** element to draw graphics and animations using
     JavaScript.
 
 -   Introduces the browser storage
@@ -238,7 +236,7 @@ a simple interface for storing data locally.
 It is also a web storage API provided by the web browsers to store the
 data in the similar way as stored in the localStorage in the form of the
 key-value pairs. The data stored in
-the[ sessionStorage](https://www.geeksforgeeks.org/html-dom-window-sessionstorage-property) will
+the [sessionStorage](https://www.geeksforgeeks.org/html-dom-window-sessionstorage-property) will
 only be accessible for one session such that if user closes the window
 or tab the stored data will be lost.
 
@@ -250,24 +248,22 @@ storage](https://www.geeksforgeeks.org/localstorage-and-sessionstorage-web-stora
 | **localStorage**                    | **sessionStorage** |
 | ----------------------------------- | ----------------------------------- |
 |  The stored data can be accessible  |  The stored data access is limited  |
-|  in all the opened tabs in the      |  to the current tab or window only. |
-|  browser.                           |                                     |
+|  in all the opened tabs in the browser.     |  to the current tab or window only. |
 |  The data will be persistent if the | The data will be lost once user     |
 |  tabs are closed and opened again.  | closes the tab or the window.       |
-|  Used to store the data for long    | It is used to store the data for as |
-|  term.                              | long as you want to store it.       |
+|  Used to store the data for long term.   | It is used to store the data for as long as you want to store it. |
 |  The data can be cleared using      | The data can be cleared either by   |
 |  the **clear() **method only.       | closing the tab or by using the     |
 |                                     | **clear() **method as well.         |
 
 2.  **What is the purpose of
-    using [\<figure\>](https://www.geeksforgeeks.org/html5-figure-tag) and [\<figcaption\> ](https://www.geeksforgeeks.org/html5-figcaption-tag)elements
+    using [&lt;figure&gt;](https://www.geeksforgeeks.org/html5-figure-tag) and [&lt;figcaption&gt; ](https://www.geeksforgeeks.org/html5-figcaption-tag)elements
     in [HTML5](https://www.geeksforgeeks.org/html5-introduction)?**
 
-The **\<figure\> **element is used to display the media content on the
-web page like audios, videos etc. While, the **\<figcaption\> **element
+The **&lt;figure&gt;**element is used to display the media content on the
+web page like audios, videos etc. While, the **&lt;figcaption&gt;** element
 is used to give a caption or legend to the content shown by
-the **\<figure\> **element.
+the **&lt;figure&gt; **element.
 
 ### 1.20. Write the HTML code to create a [table](https://www.geeksforgeeks.org/html-tables) with 3 columns and 3 rows.
 
