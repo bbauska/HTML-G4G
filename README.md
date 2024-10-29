@@ -62,52 +62,52 @@ related to their names or reflects their names. Some of the
 > used to represent a collection of different items. There are three
 > types of lists available in HTML as listed below:
 >
-> **1. Unordered List: **It is defined using the &lt;ul&gt; and the &lt;li&gt;
+> <b>1. Unordered List:</b> It is defined using the &lt;ul&gt; and the &lt;li&gt;
 > tags. By default, it represents the items with a bulleted dot.
 
 ```
 <ul>
   <li>List Item 1</li>
-  <li>List Item 3</li>
+  <li>List Item 2</li>
   <li>List Item 3</li>
 </ul>
 ```
 
 >
-> **2. Ordered List: **It is defined using the &lt;ol&gt; and &lt;li&gt; tag. By
+> <b>2. Ordered List:</b> It is defined using the &lt;ol&gt; and &lt;li&gt; tag. By
 > default, it represents
 > the[ list](https://www.geeksforgeeks.org/list-cpp-stl) items with
 > numeric digits.
 
 ```
 <ol>
-<li>List Item 1</li>
-<li>List Item 3</li>
-<li>List Item 3</li>
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3</li>
 </ol>
 ```
 >
-> **3. Definition List: **It is a special kind of list which is used to
+> <b>3. Definition List:</b> It is a special kind of list which is used to
 > list the or terms with their definitions. It can be defined using the
 > &lt;dl&gt;, &lt;dt&gt; and &lt;dd&gt; tags. dt -- definition term, dd --
 > definition description
 >
+
 ```
-> <dl>
-> <dt>First term</dt>
-> <dd>Definition 1</dd>
-> <dt>Second term</dt>
-> <dd>Definition 2</dd>
-> <dt>Third term</dt>
-> <dd>Definition 3</dd>
-> </dl>
+<dl>
+  <dt>First term</dt>
+    <dd>Definition 1</dd>
+  <dt>Second term</dt>
+    <dd>Definition 2</dd>
+  <dt>Third term</dt>
+    <dd>Definition 3</dd>
+</dl>
 ```
 
 ### What is the basic structure of an HTML document?
 
-The basic structure of an [**HTML
-document**](https://www.geeksforgeeks.org/dom-document-object-model) in
-HTML5 is shown below:
+The basic structure of an [**HTML document**](https://www.geeksforgeeks.org/dom-document-object-model)
+in HTML5 is shown below:
 
 ```
 <!DOCTYPE html>
@@ -119,29 +119,28 @@ HTML5 is shown below:
 </html>
 ```
 
-1.  **Explain the elements used in the basic structure of an HTML
-    document.**
+1.  **Explain the elements used in the basic structure of an HTML document.**
 
 The elements used in the basic structure of an HTML document are
 explained below:
 
--   **[&lt;!DOCTYPE html&gt;](https://www.geeksforgeeks.org/html-doctypes): **It
+-   <b>[&lt;!DOCTYPE html&gt;](https://www.geeksforgeeks.org/html-doctypes):</b> It
     represents the HTML5 version of the HTML.
 
--   **[&lt;html&gt;](https://www.geeksforgeeks.org/html-tutorial): **It is
+-   <b>[&lt;html&gt;](https://www.geeksforgeeks.org/html-tutorial):</b> It is
     the root element of the HTML document.
 
--   **[&lt;head&gt;](https://www.geeksforgeeks.org/html-head-tag): **It
+-   <b>[&lt;head&gt;](https://www.geeksforgeeks.org/html-head-tag):</b> It
     contains the meta data i.e. the data about the data. The content
     contained by this tag is not visible on the web page.
 
--   **[&lt;title&gt;](https://www.geeksforgeeks.org/html-title-tag): **It
+-   <b>[&lt;title&gt;](https://www.geeksforgeeks.org/html-title-tag):</b> It
     contains the title of the document which will be visible in the
     browser tab.
 
--   **[&lt;body&gt;](https://www.geeksforgeeks.org/html-body-tag): **It
+-   <b>[&lt;body&gt;](https://www.geeksforgeeks.org/html-body-tag):</b> It
     contains the content of the web page in the form of the HTML tags
-    like **div, anchor, paragraph, headings, etc.**
+    like <b>div, anchor, paragraph, headings, etc.</b>
 
 ### Explain tags in HTML.
 
@@ -150,7 +149,7 @@ Basically, they are the keywords that are enclosed inside the **angle
 brackets(&lt;&gt;). **Some examples of HTML tags are **&lt;div&gt;, &lt;p&gt;,
 &lt;a&gt;, &lt;span&gt;, &lt;img&gt; etc.**
 
-### Why ['alt' attribute](https://www.geeksforgeeks.org/html-alt-attribute) is used with the [&lt;img&gt; tag in HTML](https://www.geeksforgeeks.org/html-img-tag)?
+### Why ['alt' attribute](https://www.geeksforgeeks.org/html-alt-attribute) is used with the [&lt;img&gt; tag in HTML](https://www.geeksforgeeks.org/html-img-tag)?
 
 The alt attrbute provides a alternative content that is related to the
 image which will be shown on the web page if the image does not gets
@@ -163,7 +162,7 @@ in HTML:
 
 | **&lt;div&gt;tag**        | **&lt;span&gt;tag**          |
 | ----------------------- | ------------------------ |
-| It is a block-level element.         | It is an inline element. |
+| It is a block-level element. | It is an inline element. |
 | It can be used to group and structure the content of the web page. | It is mainly used to interact and style the particular part of the web page. |
 |  It represents a bigger section of the web page.  | It is used to target small parts of the web page. |
 |  It starts from a new line and takes up the full width available. | It does not starts from a new line and takes up the only  required width as taken by the content. |
@@ -171,12 +170,12 @@ in HTML:
 ### Why the [&lt;meta charset = "UTF-8"&gt;](https://www.geeksforgeeks.org/what-is-the-purpose-of-using-the-meta-charsetutf-8-tag) tag is used?
 
 It is used to set the character encoding of the charaters for the
-document to **UTF-8 **to properly display the text and the special
+document to **UTF-8** to properly display the text and the special
 characters on the web page.
 
 ### What is the purpose of using the 'role' attribute in HTML?
 
-The [**role **attribute](https://www.geeksforgeeks.org/what-is-the-purpose-of-role-attribute-in-html) defines
+The [<b>role</b> attribute](https://www.geeksforgeeks.org/what-is-the-purpose-of-role-attribute-in-html) defines
 the functionality and the purpose of an element mainly the
 accessibility. It provides the additional information for the assisstive
 technologies such as screen readers, to convey the exact meaning of the
@@ -208,26 +207,25 @@ the external videos, maps and other external content.
 HTML5 introduced some new features that are listed below:
 
 -   Introduced new semantic elements
-    like: **[&lt;header&gt;](https://www.geeksforgeeks.org/html5-header-tag), [&lt;footer&gt;](https://www.geeksforgeeks.org/html5-footer-tag), [&lt;nav&gt;](https://www.geeksforgeeks.org/html-nav-tag), [&lt;aside&gt;](https://www.geeksforgeeks.org/html5-aside-tag), [&lt;article&gt;](https://www.geeksforgeeks.org/html5-article-tag), [&lt;section&gt;](https://www.geeksforgeeks.org/html-section-tag) etc.**
+    like: <b>[&lt;header&gt;](https://www.geeksforgeeks.org/html5-header-tag), [&lt;footer&gt;](https://www.geeksforgeeks.org/html5-footer-tag), [&lt;nav&gt;](https://www.geeksforgeeks.org/html-nav-tag), [&lt;aside&gt;](https://www.geeksforgeeks.org/html5-aside-tag), [&lt;article&gt;](https://www.geeksforgeeks.org/html5-article-tag), [&lt;section&gt;](https://www.geeksforgeeks.org/html-section-tag) etc.</b>
 
--   New form input types such as **email, url, number, date, etc.**
+-   New form input types such as <b>email, url, number, date, etc.</b>
 
 -   It introduced
-    the **[&lt;audio&gt;](https://www.geeksforgeeks.org/html5-audio-tag)** and **[&lt;video&gt;](https://www.geeksforgeeks.org/html5-video) **tags
+    the <b>[&lt;audio&gt;](https://www.geeksforgeeks.org/html5-audio-tag)</b> and <b>[&lt;video&gt;](https://www.geeksforgeeks.org/html5-video)</b> tags
     to embed audios and videos and reduces the dependence on the third
     party libraries.
 
--   **&lt;canvas&gt;** element to draw graphics and animations using
-    JavaScript.
+-   <b>&lt;canvas&gt;</b> element to draw graphics and animations using JavaScript.
 
 -   Introduces the browser storage
-    as [l**ocalStorage**](https://www.geeksforgeeks.org/javascript-localstorage)** **and **[sessionStorage](https://www.geeksforgeeks.org/html-dom-window-sessionstorage-property) **to
+    as [localStorage](https://www.geeksforgeeks.org/javascript-localstorage) and [sessionStorage](https://www.geeksforgeeks.org/html-dom-window-sessionstorage-property) to
     store data in the browser.
 
 ### What is localStorage?
 
-[localStorage ](https://www.geeksforgeeks.org/javascript-localstorage)is
-a client-side web storage mechanism that allows web applications to
+[localStorage]https://www.geeksforgeeks.org/javascript-localstorage) 
+is a client-side web storage mechanism that allows web applications to
 store key-value pairs persistently in a user's web browser. It provides
 a simple interface for storing data locally.
 
@@ -242,7 +240,7 @@ or tab the stored data will be lost.
 
 ### Differentiate between localStorage and sessionStorage.
 
-The below table lists the[ differences between the local and the session
+The below table lists the[differences between the local and the session
 storage](https://www.geeksforgeeks.org/localstorage-and-sessionstorage-web-storage-apis):
 
 | **localStorage**                    | **sessionStorage** |
@@ -253,19 +251,19 @@ storage](https://www.geeksforgeeks.org/localstorage-and-sessionstorage-web-stora
 |  tabs are closed and opened again.  | closes the tab or the window.       |
 |  Used to store the data for long term.   | It is used to store the data for as long as you want to store it. |
 |  The data can be cleared using      | The data can be cleared either by   |
-|  the **clear() **method only.       | closing the tab or by using the     |
-|                                     | **clear() **method as well.         |
+|  the **clear()** method only.       | closing the tab or by using the     |
+|                                     | **clear()** method as well.         |
 
 2.  **What is the purpose of
     using [&lt;figure&gt;](https://www.geeksforgeeks.org/html5-figure-tag) and [&lt;figcaption&gt; ](https://www.geeksforgeeks.org/html5-figcaption-tag)elements
     in [HTML5](https://www.geeksforgeeks.org/html5-introduction)?**
 
-The **&lt;figure&gt;**element is used to display the media content on the
+The **&lt;figure&gt;** element is used to display the media content on the
 web page like audios, videos etc. While, the **&lt;figcaption&gt;** element
 is used to give a caption or legend to the content shown by
-the **&lt;figure&gt; **element.
+the **&lt;figure&gt;** element.
 
-### 1.20. Write the HTML code to create a [table](https://www.geeksforgeeks.org/html-tables) with 3 columns and 3 rows.
+### 1.20. Write the HTML code to create a [table](https://www.geeksforgeeks.org/html-tables) with 3 columns and 3 rows.
 
 The below code creates a table with 3 rows and 3 columns:
 
@@ -295,18 +293,17 @@ The below code creates a table with 3 rows and 3 columns:
 
 **21. How can you merge the rows and columns of a HTML table?**
 
-You can use the **colspan **and the **rowspan **attributes with
-the **&lt;td&gt; **element and specify the number of rows and columns to be
+You can use the **colspan** and the **rowspan** attributes with
+the **&lt;td&gt;** element and specify the number of rows and columns to be
 merged by passing a numerical value to the defined attributes.
-The **[colspan](https://www.geeksforgeeks.org/html-colspan-attribute) **attribute
+The **[colspan](https://www.geeksforgeeks.org/html-colspan-attribute)** attribute
 can be used to merge columns while
-the **[rowspan](https://www.geeksforgeeks.org/html-rowspan-attribute) **to
+the **[rowspan](https://www.geeksforgeeks.org/html-rowspan-attribute)** to
 merge the rows.
 
 **22. Describe data attributes in HTML.**
 
-The [data
-attributes](https://www.geeksforgeeks.org/html-data-attributes) in HTML
+The [data attributes](https://www.geeksforgeeks.org/html-data-attributes) in HTML
 are defined to collect the data that is private to the web page or the
 web application. It is basically used to personalize the JavaScript for
 the particular user or visitor on the web page based on the actions of
@@ -320,22 +317,21 @@ going to the browser **developer tools** and **inspect element.**
 Cascading Style Sheets. It helps to design and style the web page to
 make it attractive for users. CSS provides us a lot of selectors to
 select the HTML elements and style them according to the requirements.
-Some of the [**CSS
-selectors **](https://www.geeksforgeeks.org/css-selectors)are [Element
-Selectors](https://www.geeksforgeeks.org/css-element-element-selector), [**Class
-Selectors**](https://www.geeksforgeeks.org/css-class-selector) and [**Id
-Selectors**](https://www.geeksforgeeks.org/css-id-selector).
+Some of the [**CSS Selectors**](https://www.geeksforgeeks.org/css-selectors) are 
+[**Element Selectors**](https://www.geeksforgeeks.org/css-element-element-selector), 
+[**Class Selectors**](https://www.geeksforgeeks.org/css-class-selector) and 
+[**Id Selectors**](https://www.geeksforgeeks.org/css-id-selector).
 
 **24. Explain selectors in CSS.**
 
-In[ CSS, selectors](https://www.geeksforgeeks.org/css-selectors) are
+In [CSS, selectors](https://www.geeksforgeeks.org/css-selectors) are
 used to select elements and style the element by providing CSS
 properties to it. Below is the list of some common CSS selectors:
 
 -   **[Element Selector:](https://www.geeksforgeeks.org/css-element-selector)** Select
     directly by using the name of the element.
 
--   **ID Selector: **Define ID attribute and select using the &num; prefix
+-   **ID Selector:** Define ID attribute and select using the &num; prefix
     followed by the value of ID attribute.
 
 -   **Class Selector:** Define Class attribute and select using the .
@@ -343,7 +339,7 @@ properties to it. Below is the list of some common CSS selectors:
 
 -   **Universal Selector (&ast;):** Select using the &ast; sign.
 
--   **Attribute Selector: **Select the elements based on the attribute
+-   **Attribute Selector:** Select the elements based on the attribute
     values. Eg: **input&lbrack;type="text"&rbrack;{}**
 
 -   **Direct Child Selector:** Select element using any of the above
@@ -508,14 +504,14 @@ some other features to enhance code maintainablility.
 
 Cascading represents the specificity order in applying styles. These
 styles can be defined by the user, author or they can be the default
-browser styles. The specificity order for the styles is **user styles &gt; 
-author styles &gt; default browser styles.**
+browser styles. The specificity order for the styles is 
+**user styles &gt; author styles &gt; default browser styles.**
 
 **39. Explain Media Queries in CSS.**
 
 Media queries are the block of CSS code defined for a particular width
 or range of the width. These can be defined using
-the **&commat;media **keyword with **screen **to specify styles for a
+the **&commat;media** keyword with **screen** to specify styles for a
 particular width or range of width. They are used very commonly to
 create responsive designs.
 
