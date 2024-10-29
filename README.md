@@ -39,7 +39,7 @@ related to their names or reflects their names. Some of the
 > HTML**](https://www.geeksforgeeks.org/what-are-empty-elements-in-html) are
 > the elements that don't require a closing tag followed by the opening
 > tag. These elements are also known as self-closing elements. Example:
-> \<img\>, \<input\>, \<br\>, \<hr\> etc.
+> &lt;img&gt;, &lt;input&gt;, &lt;br&gt;, &lt;hr&gt; etc.
 
 ### Differentiate between the Inline and the Block elements in HTML.
 
@@ -48,13 +48,13 @@ related to their names or reflects their names. Some of the
 > HTML are the elements that do not start from a new line every time and
 > take up the same space and width as acquired by the content. The
 > margin and padding properties applied at the top and the bottom of
-> these elements may not have the expected effect. Examples: \<a\>,
-> \<strong\>, \<img\>, \<input\> etc.
+> these elements may not have the expected effect. Examples: &lt;a&gt;,
+> &lt;strong&gt;, &lt;img&gt;, &lt;input&gt; etc.
 >
 > The Block elements automatically starts from a new line and takes up
 > the whole view-port width irrespective of the contained content. The
 > padding and margin properties have the same effect on all the four
-> sides. Examples: \<div\>, \<h1\> to \<h6\>, \<p\>, \<table\> etc.
+> sides. Examples: &lt;div&gt;, &lt;h1&gt; to &lt;h6&gt;, &lt;p&gt;, &lt;table&gt; etc.
 
 ### What is list in HTML? Explain different types of list available in HTML.
 
@@ -62,7 +62,7 @@ related to their names or reflects their names. Some of the
 > used to represent a collection of different items. There are three
 > types of lists available in HTML as listed below:
 >
-> **1. Unordered List: **It is defined using the \<ul\> and the \<li\>
+> **1. Unordered List: **It is defined using the &lt;ul&gt; and the &lt;li&gt;
 > tags. By default, it represents the items with a bulleted dot.
 
 ```
@@ -74,7 +74,7 @@ related to their names or reflects their names. Some of the
 ```
 
 >
-> **2. Ordered List: **It is defined using the \<ol\> and \<li\> tag. By
+> **2. Ordered List: **It is defined using the &lt;ol&gt; and &lt;li&gt; tag. By
 > default, it represents
 > the[ list](https://www.geeksforgeeks.org/list-cpp-stl) items with
 > numeric digits.
@@ -89,7 +89,7 @@ related to their names or reflects their names. Some of the
 >
 > **3. Definition List: **It is a special kind of list which is used to
 > list the or terms with their definitions. It can be defined using the
-> \<dl\>, \<dt\> and \<dd\> tags. dt -- definition term, dd --
+> &lt;dl&gt;, &lt;dt&gt; and &lt;dd&gt; tags. dt -- definition term, dd --
 > definition description
 >
 ```
@@ -147,8 +147,8 @@ explained below:
 
 The HTML tags are used to define the elements on the web page.
 Basically, they are the keywords that are enclosed inside the **angle
-brackets(\<\>). **Some examples of HTML tags are **\<div\>, \<p\>,
-\<a\>, \<span\>, \<img\> etc.**
+brackets(&lt;&gt;). **Some examples of HTML tags are **&lt;div&gt;, &lt;p&gt;,
+&lt;a&gt;, &lt;span&gt;, &lt;img&gt; etc.**
 
 ### Why ['alt' attribute](https://www.geeksforgeeks.org/html-alt-attribute) is used with the [&lt;img&gt; tag in HTML](https://www.geeksforgeeks.org/html-img-tag)?
 
@@ -208,7 +208,7 @@ the external videos, maps and other external content.
 HTML5 introduced some new features that are listed below:
 
 -   Introduced new semantic elements
-    like: **[&lt;header&gt;](https://www.geeksforgeeks.org/html5-header-tag), [&lt;footer&gt;](https://www.geeksforgeeks.org/html5-footer-tag), [\<nav\>](https://www.geeksforgeeks.org/html-nav-tag), [\<aside\>](https://www.geeksforgeeks.org/html5-aside-tag), [\<article\>](https://www.geeksforgeeks.org/html5-article-tag), [&lt;section&gt;](https://www.geeksforgeeks.org/html-section-tag) etc.**
+    like: **[&lt;header&gt;](https://www.geeksforgeeks.org/html5-header-tag), [&lt;footer&gt;](https://www.geeksforgeeks.org/html5-footer-tag), [&lt;nav&gt;](https://www.geeksforgeeks.org/html-nav-tag), [&lt;aside&gt;](https://www.geeksforgeeks.org/html5-aside-tag), [&lt;article&gt;](https://www.geeksforgeeks.org/html5-article-tag), [&lt;section&gt;](https://www.geeksforgeeks.org/html-section-tag) etc.**
 
 -   New form input types such as **email, url, number, date, etc.**
 
@@ -296,7 +296,7 @@ The below code creates a table with 3 rows and 3 columns:
 **21. How can you merge the rows and columns of a HTML table?**
 
 You can use the **colspan **and the **rowspan **attributes with
-the **\<td\> **element and specify the number of rows and columns to be
+the **&lt;td&gt; **element and specify the number of rows and columns to be
 merged by passing a numerical value to the defined attributes.
 The **[colspan](https://www.geeksforgeeks.org/html-colspan-attribute) **attribute
 can be used to merge columns while
@@ -332,11 +332,10 @@ In[ CSS, selectors](https://www.geeksforgeeks.org/css-selectors) are
 used to select elements and style the element by providing CSS
 properties to it. Below is the list of some common CSS selectors:
 
--   **[Element
-    Selector:](https://www.geeksforgeeks.org/css-element-selector) **Select
+-   **[Element Selector:](https://www.geeksforgeeks.org/css-element-selector)** Select
     directly by using the name of the element.
 
--   **ID Selector: **Define ID attribute and select using the \# prefix
+-   **ID Selector: **Define ID attribute and select using the &num; prefix
     followed by the value of ID attribute.
 
 -   **Class Selector:** Define Class attribute and select using the .
@@ -372,10 +371,10 @@ for JavaScript and CSS:
 -   Always use an external file for defining the JavaScript and CSS
     with **.js** and **.css** extensions respectively.
 
--   Always link the CSS file inside the \<head\> tag of the HTML
+-   Always link the CSS file inside the &lt;head&gt; tag of the HTML
     document.
 
--   Always add the script file at the end of the \<body\> tag just
+-   Always add the script file at the end of the &lt;body&gt; tag just
     before where body closes.
 
 -   Try to write JavaScript in strict mode to avoid errors and write
@@ -471,62 +470,60 @@ The pseudo classes and pseudo elements are different entities in CSS.
 They are combinely known as pseudo selectors in CSS. Below is the
 explanation for them:
 
--   **pseudo classes: **These are the classes that selects the elements
+-   **pseudo classes:** These are the classes that selects the elements
     based on their state and the position. Some pseudo classes
     are **:hover, :focus, :nth-child etc.**
 
--   **pseudo elements: **These are the virtual elements that are mainly
+-   **pseudo elements:** These are the virtual elements that are mainly
     defined to style a particular part of an element in the HTML
     document. Some pseudo elements are **:before **and **:after.**
 
 **35. Why is the '!important' used in CSS?**
 
-The **!important **declaration is used to give higher precedence to a
+The **!important** declaration is used to give higher precedence to a
 CSS property to override it from other conflicting styles defined on a
-element using the same property such as **width: 30px !important; **will
-override the property **width: 25px; **defined on the same element.
+element using the same property such as **width: 30px !important;** will
+override the property **width: 25px;** defined on the same element.
 
 **36. What is the purpose of 'box-sizing' property in CSS?**
 
-The **box-sizing **property is used to determine the way of calculating
+The **box-sizing** property is used to determine the way of calculating
 the height and width of a element. It determines whether the border and
 padding will be included or not to calculate the height and width of the
 element. The common values
-are **content-box(default) **and **border-box.**
+are **content-box(default)** and **border-box.**
 
-**37. Tell me about CSS preprocessors and their advantage over pure
-CSS?**
+**37. Tell me about CSS preprocessors and their advantage over pure CSS?**
 
 A CSS preprocessor is created using a scripting language that extends
 the CSS rules and processed in the regular CSS by creating a file
-with **.css **extension. Mostly used CSS preprocessors
-are **SASS **and **LESS. SASS **is based on the **Ruby
-language **while **LESS **is based on JavaScript, initially it was also
-based on **Ruby **but now shifted to **JavaScript. **They provide some
-extra features like **creating variables, mixins, code nesting **and
+with **.css** extension. Mostly used CSS preprocessors
+are **SASS** and **LESS. SASS** is based on the **Ruby language** while **LESS**
+is based on JavaScript, initially it was also
+based on **Ruby** but now shifted to **JavaScript.** They provide some
+extra features like **creating variables, mixins, code nesting** and
 some other features to enhance code maintainablility.
 
 **38. What is the meaning of 'Cascading' in Cascading Style Sheet?**
 
 Cascading represents the specificity order in applying styles. These
 styles can be defined by the user, author or they can be the default
-browser styles. The specificity order for the styles is **user styles \>
-author styles \> default browser styles.**
+browser styles. The specificity order for the styles is **user styles &gt; 
+author styles &gt; default browser styles.**
 
 **39. Explain Media Queries in CSS.**
 
 Media queries are the block of CSS code defined for a particular width
 or range of the width. These can be defined using
-the **\@media **keyword with **screen **to specify styles for a
+the **&commat;media **keyword with **screen **to specify styles for a
 particular width or range of width. They are used very commonly to
 create responsive designs.
 
-**40. Describe CSS sprites and their importance to improve website
-performance.**
+**40. Describe CSS sprites and their importance to improve website performance.**
 
 CSS sprites are a technique that is used to compress multiple images
 available on the web page into a single image file. It arranges all the
-images in a grid-like layout. The **background-position **property of
+images in a grid-like layout. The **background-position** property of
 CSS can be used to display the different parts of the combined image as
 background for different elements. It improves the web performance by
 reducing the server requests as the website has to request only a single
@@ -550,14 +547,12 @@ as listed below:
 There are some key concepts available in CSS that can help you in
 creating responsive designs as listed below:
 
--   Using [**Media
-    queries**](https://www.geeksforgeeks.org/css-media-queries)
+-   Using [**Media queries**](https://www.geeksforgeeks.org/css-media-queries)
 
 -   Using the **flexbox layout**
 
 -   Using the **grid layout**
 
--   Using responsive CSS properties like **percentage** and **vh, vw.ow
-    to create responsive designs?**
+-   Using responsive CSS properties like **percentage** and **vh, vw.ow to create responsive designs?**
 
 b.  **Forms and Validation**
