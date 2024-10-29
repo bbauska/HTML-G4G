@@ -191,7 +191,7 @@ POST](https://www.geeksforgeeks.org/html-form-method-attribute) methods
 in HTML forms:
 
 |  **GET Method** | **POST Method** |
-| --------------- | ------------------ |
+| ------------------------- | ------------------------- |
 | It is a insecure way to send data on the server. | It is a secure way of sending the form data. |
 | All the form data parameters are visible in the URL. | None of the parameters are visible anywhere. |
 | It has a URL length limit that varies for different browsers. | It has a bigger URL length limit as compared to the limit of the GET method. |
