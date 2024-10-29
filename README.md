@@ -166,14 +166,9 @@ in HTML:
 | **\<div\> tag**        | **\<span\> tag**          |
 | ----------------------- | ------------------------ |
 | It is a block-level element.         | It is an inline element. |
-|  It can be used to group and         | It is mainly used to interact and |
-|  structure the content of the web    | style the particular part of the |
-|  page.                               | web page. |
-|  It represents a bigger section of   | It is used to target small parts of |
-|  the web page.                       | the web page. |
-|  It starts from a new line and takes | It does not starts from a new line |
-|  up the full width available.        | and takes up only the required |
-|                                      | width as taken by the content. |
+| It can be used to group and structure the content of the web page. | It is mainly used to interact and style the particular part of the web page. |
+|  It represents a bigger section of the web page.  | It is used to target small parts of the web page. |
+|  It starts from a new line and takes up the full width available. | It does not starts from a new line and takes up the only  required width as taken by the content. |
 
 ### Why the [\<meta charset = "UTF-8"\>](https://www.geeksforgeeks.org/what-is-the-purpose-of-using-the-meta-charsetutf-8-tag) tag is used?
 
