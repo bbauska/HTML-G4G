@@ -10,7 +10,7 @@ c.  **Semantic Tags**
 
 d.  **Accessibility**
 
-<h2>a.  **Basic HTML**</h2>
+<h2>a.  <b>Basic HTML</b></h2>
 
 ### What is HTML?
 
@@ -145,9 +145,9 @@ explained below:
 ### Explain tags in HTML.
 
 The HTML tags are used to define the elements on the web page.
-Basically, they are the keywords that are enclosed inside the **angle
-brackets(&lt;&gt;). **Some examples of HTML tags are **&lt;div&gt;, &lt;p&gt;,
-&lt;a&gt;, &lt;span&gt;, &lt;img&gt; etc.**
+Basically, they are the keywords that are enclosed inside the <b>angle
+brackets(&lt;&gt;).</b> Some examples of HTML tags are <b>&lt;div&gt;, &lt;p&gt;,
+&lt;a&gt;, &lt;span&gt;, &lt;img&gt; etc.</b>
 
 ### Why ['alt' attribute](https://www.geeksforgeeks.org/html-alt-attribute) is used with the [&lt;img&gt; tag in HTML](https://www.geeksforgeeks.org/html-img-tag)?
 
@@ -450,7 +450,7 @@ below:
     used to center a element vertically as well as horizontally by using
     some extra properties as **align-items: center;** and **justify-content: center;.**
 
--   **Using position and transform: **You can position a element to give
+-   **Using position and transform:** You can position a element to give
     it a **left** and **top** to **50%** and then use
     the **transform** property with value **translateY(-50%);**
 
@@ -472,7 +472,7 @@ explanation for them:
 
 -   **pseudo elements:** These are the virtual elements that are mainly
     defined to style a particular part of an element in the HTML
-    document. Some pseudo elements are **:before **and **:after.**
+    document. Some pseudo elements are **:before** and **:after.**
 
 **35. Why is the '!important' used in CSS?**
 
@@ -551,4 +551,4 @@ creating responsive designs as listed below:
 
 -   Using responsive CSS properties like **percentage** and **vh, vw.ow to create responsive designs?**
 
-<h2>b.  **Forms and Validation**</h2>
+<h2>b.  <b>Forms and Validation</b></h2>
