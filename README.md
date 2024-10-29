@@ -10,7 +10,7 @@ c.  **Semantic Tags**
 
 d.  **Accessibility**
 
-a.  **Basic HTML**
+<h2>a.  **Basic HTML**</h2>
 
 ### What is HTML?
 
@@ -551,4 +551,4 @@ creating responsive designs as listed below:
 
 -   Using responsive CSS properties like **percentage** and **vh, vw.ow to create responsive designs?**
 
-b.  **Forms and Validation**
+<h2>b.  **Forms and Validation**</h2>
