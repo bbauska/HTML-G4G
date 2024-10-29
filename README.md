@@ -1,5 +1,3 @@
-# HTML-G4G
-HTML &amp; web development. From HTML Geeks 4 Geeks web site &amp; more.
 **(HyperText Markup Language)**
 
 {From Geeks4Geeks}
@@ -12,9 +10,6 @@ c.  **Semantic Tags**
 
 d.  **Accessibility**
 
-```{=html}
-<!-- -->
-```
 a.  **Basic HTML**
 
 ### What is HTML?
@@ -33,30 +28,10 @@ related to their names or reflects their names. Some of the
 **[semantic]{.mark}** HTML elements are listed below:
 
 -   Header
-
-```{=html}
-<!-- -->
-```
 -   Main
-
-```{=html}
-<!-- -->
-```
 -   Section
-
-```{=html}
-<!-- -->
-```
 -   Article
-
-```{=html}
-<!-- -->
-```
 -   Aside
-
-```{=html}
-<!-- -->
-```
 -   Footer etc.
 
 ### What are the Empty elements in HTML?
@@ -90,52 +65,44 @@ related to their names or reflects their names. Some of the
 >
 > **1. Unordered List: **It is defined using the \<ul\> and the \<li\>
 > tags. By default, it represents the items with a bulleted dot.
->
-> \<ul\>
->
-> \<li\>List Item 1\</li\>
->
-> \<li\>List Item 3\</li\>
->
-> \<li\>List Item 3\</li\>
->
-> \</ul\>
+
+```
+<ul>
+  <li>List Item 1</li>
+  <li>List Item 3</li>
+  <li>List Item 3</li>
+</ul>
+```
+
 >
 > **2. Ordered List: **It is defined using the \<ol\> and \<li\> tag. By
 > default, it represents
 > the[ list](https://www.geeksforgeeks.org/list-cpp-stl) items with
 > numeric digits.
->
-> \<ol\>
->
-> \<li\>List Item 1\</li\>
->
-> \<li\>List Item 3\</li\>
->
-> \<li\>List Item 3\</li\>
->
-> \</ol\>
+
+```
+<ol>
+<li>List Item 1</li>
+<li>List Item 3</li>
+<li>List Item 3</li>
+</ol>
+```
 >
 > **3. Definition List: **It is a special kind of list which is used to
 > list the or terms with their definitions. It can be defined using the
 > \<dl\>, \<dt\> and \<dd\> tags. dt -- definition term, dd --
 > definition description
 >
-> \<dl\>
->
-> \<dt\>First term\</dt\>
->
-> \<dd\>Definition 1\</dd\>
->
-> \<dt\>Second term\</dt\>
->
-> \<dd\>Definition 2\</dd\>
->
-> \<dt\>Third term\</dt\>
->
-> \<dd\>Definition 3\</dd\>
->
-> \</dl\>
+```
+> <dl>
+> <dt>First term</dt>
+> <dd>Definition 1</dd>
+> <dt>Second term</dt>
+> <dd>Definition 2</dd>
+> <dt>Third term</dt>
+> <dd>Definition 3</dd>
+> </dl>
+```
 
 ### What is the basic structure of an HTML document?
 
@@ -143,19 +110,15 @@ The basic structure of an [**HTML
 document**](https://www.geeksforgeeks.org/dom-document-object-model) in
 HTML5 is shown below:
 
-\<!DOCTYPE html\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<title\>Document\</title\>
-
-\</head\>
-
-\<body\>\</body\>
-
-\</html\>
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+```
 
 1.  **Explain the elements used in the basic structure of an HTML
     document.**
@@ -167,29 +130,17 @@ explained below:
     html\>](https://www.geeksforgeeks.org/html-doctypes): **It
     represents the HTML5 version of the HTML.
 
-```{=html}
-<!-- -->
-```
 -   **[\<html\>](https://www.geeksforgeeks.org/html-tutorial): **It is
     the root element of the HTML document.
 
-```{=html}
-<!-- -->
-```
 -   **[\<head\>](https://www.geeksforgeeks.org/html-head-tag): **It
     contains the meta data i.e. the data about the data. The content
     contained by this tag is not visible on the web page.
 
-```{=html}
-<!-- -->
-```
 -   **[\<title\>](https://www.geeksforgeeks.org/html-title-tag): **It
     contains the title of the document which will be visible in the
     browser tab.
 
-```{=html}
-<!-- -->
-```
 -   **[\<body\>](https://www.geeksforgeeks.org/html-body-tag): **It
     contains the content of the web page in the form of the HTML tags
     like **div, anchor, paragraph, headings, etc.**
@@ -212,22 +163,17 @@ loaded. It is used to define our image in that case.
 The below table will show the differences between the div and span tag
 in HTML:
 
-  -----------------------------------------------------------------------
-  **\<div\> tag**                     **\<span\> tag**
-  ----------------------------------- -----------------------------------
-  It is a block-level element.        It is an inline element.
-
-  It can be used to group and         It is mainly used to interact and
-  structure the content of the web    style the particular part of the
-  page.                               web page.
-
-  It represents a bigger section of   It is used to target small parts of
-  the web page.                       the web page.
-
-  It starts from a new line and takes It does not starts from a new line
-  up the full width available.        and takes up only the required
-                                      width as taken by the content.
-  -----------------------------------------------------------------------
+| **\<div\> tag**        | **\<span\> tag**          |
+| ----------------------- | ------------------------ |
+| It is a block-level element.         | It is an inline element. |
+|  It can be used to group and         | It is mainly used to interact and |
+|  structure the content of the web    | style the particular part of the |
+|  page.                               | web page. |
+|  It represents a bigger section of   | It is used to target small parts of |
+|  the web page.                       | the web page. |
+|  It starts from a new line and takes | It does not starts from a new line |
+|  up the full width available.        | and takes up only the required |
+|                                      | width as taken by the content. |
 
 ### Why the [\<meta charset = "UTF-8"\>](https://www.geeksforgeeks.org/what-is-the-purpose-of-using-the-meta-charsetutf-8-tag) tag is used?
 
@@ -249,25 +195,13 @@ The below table will explain the [differences between the GET and
 POST](https://www.geeksforgeeks.org/html-form-method-attribute) methods
 in HTML forms:
 
-  -----------------------------------------------------------------------
-  **GET Method**                      **POST Method**
-  ----------------------------------- -----------------------------------
-  It is a insecure way to send data   It is a secure way of sending the
-  on the server.                      form data.
-
-  All the form data parameters are    None of the parameters are visible
-  visible in the URL.                 anywhere.
-
-  It has a URL length limit that      It has a bigger URL length limit as
-  varies for different browsers.      compare to the limit of the GET
-                                      method.
-
-  Results are cached by the browser   Does not caches the responses in
-  by default.                         the browser by default.
-
-  Users can bookmark the form         Responses can be bookmarked easily.
-  submission.                         
-  -----------------------------------------------------------------------
+|  **GET Method** | **POST Method** |
+| --------------- | ------------------ |
+| It is a insecure way to send data on the server. | It is a secure way of sending the form data. |
+| All the form data parameters are visible in the URL. | None of the parameters are visible anywhere. |
+| It has a URL length limit that varies for different browsers. | It has a bigger URL length limit as compared to the limit of the GET method. |
+| Results are cached by the browser by default. | Does not caches the responses in the browser by default. |
+| Users can bookmark the form submission. | Responses can be bookmarked easily. |
 
 ### What is the use of the \<iframe\> tag?
 
@@ -283,28 +217,16 @@ HTML5 introduced some new features that are listed below:
 -   Introduced new semantic elements
     like: **[\<header\>](https://www.geeksforgeeks.org/html5-header-tag), [\<footer\>](https://www.geeksforgeeks.org/html5-footer-tag), [\<nav\>](https://www.geeksforgeeks.org/html-nav-tag), [\<aside\>](https://www.geeksforgeeks.org/html5-aside-tag), [\<article\>](https://www.geeksforgeeks.org/html5-article-tag), [\<section\>](https://www.geeksforgeeks.org/html-section-tag) etc.**
 
-```{=html}
-<!-- -->
-```
 -   New form input types such as **email, url, number, date, etc.**
 
-```{=html}
-<!-- -->
-```
 -   It introduced
     the** [\<audio\>](https://www.geeksforgeeks.org/html5-audio-tag)** and **[\<video\>](https://www.geeksforgeeks.org/html5-video) **tags
     to embed audios and videos and reduces the dependence on the third
     party libraries.
 
-```{=html}
-<!-- -->
-```
 -   **\<canvas\> **element to draw graphics and animations using
     JavaScript.
 
-```{=html}
-<!-- -->
-```
 -   Introduces the browser storage
     as [l**ocalStorage**](https://www.geeksforgeeks.org/javascript-localstorage)** **and **[sessionStorage](https://www.geeksforgeeks.org/html-dom-window-sessionstorage-property) **to
     store data in the browser.
@@ -330,23 +252,18 @@ or tab the stored data will be lost.
 The below table lists the[ differences between the local and the session
 storage](https://www.geeksforgeeks.org/localstorage-and-sessionstorage-web-storage-apis):
 
-  -----------------------------------------------------------------------
-  **localStorage**                    **sessionStorage**
-  ----------------------------------- -----------------------------------
-  The stored data can be accessible   The stored data access is limited
-  in all the opened tabs in the       to the current tab or window only.
-  browser.                            
-
-  The data will be persistent if the  The data will be lost once user
-  tabs are closed and opened again.   closes the tab or the window.
-
-  Used to store the data for long     It is used to store the data for as
-  term.                               long as you want to store it.
-
-  The data can be cleared using       The data can be cleared either by
-  the **clear() **method only.        closing the tab or by using
-                                      the **clear() **method as well.
-  -----------------------------------------------------------------------
+| **localStorage**                    | **sessionStorage** |
+| ----------------------------------- | ----------------------------------- |
+|  The stored data can be accessible  |  The stored data access is limited  |
+|  in all the opened tabs in the      |  to the current tab or window only. |
+|  browser.                           |                                     |
+|  The data will be persistent if the | The data will be lost once user     |
+|  tabs are closed and opened again.  | closes the tab or the window.       |
+|  Used to store the data for long    | It is used to store the data for as |
+|  term.                              | long as you want to store it.       |
+|  The data can be cleared using      | The data can be cleared either by   |
+|  the **clear() **method only.       | closing the tab or by using the     |
+|                                     | **clear() **method as well.         |
 
 2.  **What is the purpose of
     using [\<figure\>](https://www.geeksforgeeks.org/html5-figure-tag) and [\<figcaption\> ](https://www.geeksforgeeks.org/html5-figcaption-tag)elements
@@ -361,47 +278,29 @@ the **\<figure\> **element.
 
 The below code creates a table with 3 rows and 3 columns:
 
-\<table border=\"1px\"\>
-
-\<thead\>
-
-\<tr\>
-
-\<th\>col 11\</th\>
-
-\<th\>col 12\</th\>
-
-\<th\>col 13\</th\>
-
-\</tr\>
-
-\</thead\>
-
-\<tbody\>
-
-\<tr\>
-
-\<td\>col 21\</td\>
-
-\<td\>col 22\</td\>
-
-\<td\>col 23\</td\>
-
-\</tr\>
-
-\<tr\>
-
-\<td\>col 31\</td\>
-
-\<td\>col 32\</td\>
-
-\<td\>col 33\</td\>
-
-\</tr\>
-
-\</tbody\>
-
-\</table\>
+```
+<table border="1px">
+  <thead>
+    <tr>
+      <th>col 11</th>
+      <th>col 12</th>
+      <th>col 13</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 21</td>
+      <td>col 22</td>
+      <td>col 23</td>
+    </tr>
+    <tr>
+      <td>col 31</td>
+      <td>col 32</td>
+      <td>col 33</td>
+    </tr>
+  </tbody>
+</table>
+```
 
 **21. How can you merge the rows and columns of a HTML table?**
 
@@ -446,39 +345,21 @@ properties to it. Below is the list of some common CSS selectors:
     Selector:](https://www.geeksforgeeks.org/css-element-selector) **Select
     directly by using the name of the element.
 
-```{=html}
-<!-- -->
-```
 -   **ID Selector: **Define ID attribute and select using the \# prefix
     followed by the value of ID attribute.
 
-```{=html}
-<!-- -->
-```
 -   **Class Selector: **Define Class attribute and select using the .
     prefix followed by the value of class attribute.
 
-```{=html}
-<!-- -->
-```
 -   **Universal Selector (\*): **Select using the \* sign.
 
-```{=html}
-<!-- -->
-```
 -   **Attribute Selector: **Select the elements based on the attribute
     values. Eg: **input\[type="text"\]{}**
 
-```{=html}
-<!-- -->
-```
 -   **Direct Child Selector: **Select element using any of the above
     selectors and use \> followed by direct child selector. Eg: **parent
     \> child{}**
 
-```{=html}
-<!-- -->
-```
 -   **Pseudo Selectors: **These are selectors like :hover, :nth-child(),
     ::after, ::before etc.
 
@@ -490,9 +371,6 @@ below:
 
 -   ID Selector \> Class Selector \> Element Selector
 
-```{=html}
-<!-- -->
-```
 -   ID Selector + Class Selector \> ID Selector + Element Selector \>
     Class Selector + Element Selector
 
@@ -505,27 +383,15 @@ for JavaScript and CSS:
 -   Always use an external file for defining the JavaScript and CSS
     with **.js** and **.css** extensions respectively.
 
-```{=html}
-<!-- -->
-```
 -   Always link the CSS file inside the \<head\> tag of the HTML
     document.
 
-```{=html}
-<!-- -->
-```
 -   Always add the script file at the end of the \<body\> tag just
     before where body closes.
 
-```{=html}
-<!-- -->
-```
 -   Try to write JavaScript in strict mode to avoid errors and write
     cleaner JavaScript.
 
-```{=html}
-<!-- -->
-```
 -   Avoid creating global variable and use the meaningful name to define
     the variables.
 
@@ -548,24 +414,12 @@ Explorer:
 
 -   Transparency of the images with **.png **extension.
 
-```{=html}
-<!-- -->
-```
 -   Issues related to Z-index property.
 
-```{=html}
-<!-- -->
-```
 -   Sometimes, it doubles the margin added to an element.
 
-```{=html}
-<!-- -->
-```
 -   Box model has a different interpretation.
 
-```{=html}
-<!-- -->
-```
 -   Lack the support for the CSS3 Features.
 
 **29. Explain box-model in CSS.**
@@ -577,21 +431,12 @@ padding, border and margin.
 -   **Content: **It can be the text content or the nested HTML elements
     with some content inside a element.
 
-```{=html}
-<!-- -->
-```
 -   **Padding: **It is the space around the content of the element or
     the space between the content and the borders.
 
-```{=html}
-<!-- -->
-```
 -   **Border: **This is the stroke or outline provided to the element to
     see its boundaries or style it.
 
-```{=html}
-<!-- -->
-```
 -   **Margin: **It is the space around the whole element, it is the gap
     outside the element from other elements or the space between the
     border of this element and other elements.
@@ -621,17 +466,11 @@ below:
     element horizontally by giving **margin auto** from left and right
     of the element as **margin: 0 auto;**.
 
-```{=html}
-<!-- -->
-```
 -   **Using display: **The display property with value **flex **can be
     used to center a element vertically as well as horizontally by using
     some extra properties as **align-items:
     center; **and **justify-content: center;.**
 
-```{=html}
-<!-- -->
-```
 -   **Using position and transform: **You can position a element to give
     it a **left **and **top **to **50% **and then use
     the **transform **property with value **translateY(-50%);**
@@ -653,9 +492,6 @@ explanation for them:
     based on their state and the position. Some pseudo classes
     are **:hover, :focus, :nth-child etc.**
 
-```{=html}
-<!-- -->
-```
 -   **pseudo elements: **These are the virtual elements that are mainly
     defined to style a particular part of an element in the HTML
     document. Some pseudo elements are **:before **and **:after.**
@@ -720,19 +556,10 @@ as listed below:
 
 -   By minimizing number of CSS files.
 
-```{=html}
-<!-- -->
-```
 -   CSS minification
 
-```{=html}
-<!-- -->
-```
 -   By leveraging the browser cache
 
-```{=html}
-<!-- -->
-```
 -   Load the un-necessary styles using asynchronous or deffered loading.
 
 **42. How to create responsive designs?**
@@ -743,19 +570,10 @@ creating responsive designs as listed below:
 -   Using [**Media
     queries**](https://www.geeksforgeeks.org/css-media-queries)
 
-```{=html}
-<!-- -->
-```
 -   Using the **flexbox layout**
 
-```{=html}
-<!-- -->
-```
 -   Using the **grid layout**
 
-```{=html}
-<!-- -->
-```
 -   Using responsive CSS properties like **percentage** and **vh, vw.ow
     to create responsive designs?**
 
